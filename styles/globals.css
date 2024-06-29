@@ -428,6 +428,14 @@ a {
   height: calc(100vh - 48px);
 }
 
+#slider:not(:hover) .splide__pagination {
+  opacity: 0;
+}
+
+#slider .splide__arrow:disabled {
+  display: none;
+}
+
 #slider .splide__slide {
   width: 100%;
   max-height: 95%;
@@ -438,7 +446,7 @@ a {
 }
 
 #slider video, #slider audio, #slider img {
-  max-height: calc(100% - 80px);
+  max-height: calc(100% - 100px);
   border-radius: 4px;
   max-width: 100%;
 }

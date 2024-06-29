@@ -10,40 +10,50 @@ export default function Media({ Component, pageProps }) {
 
   const items = ([
     {
-      "type": "video",
-      "url": "https://hctilg.github.io/files/video/physics.mp4"
-    }, {
-      "type": "video",
-      "url": "https://hctilg.github.io/files/video/math.mp4"
-    }, {
       "type": "image",
-      "url": "https://hctilg.github.io/files/image/dina_01.jpg",
-      "original_url": "https://hctilg.github.io/files/image/dina_01_original.jpg"
-    }, {
-      "type": "image",
-      "url": "https://hctilg.github.io/files/image/dina_02.jpg",
-      "original_url": "https://hctilg.github.io/files/image/dina_02_original.jpg"
-    }, {
-      "type": "image",
-      "url": "https://hctilg.github.io/files/image/sexy.jpg"
-    }, {
-      "type": "image",
-      "url": "https://hctilg.github.io/files/image/cute.jpg"
-    }, {
-      "type": "image",
-      "url": "https://hctilg.github.io/files/image/home.jpg"
+      "url": "https://archive.org/download/thucydides-quote/thucydides-quote.png",
+      "text": "The Nation that makes a great distinction between its scholars and its warriors will have its thinking done by cowards and its fighting done by fools."
     }, {
       "type": "video",
-      "url": "https://files.hctilg.top/media/piano.mp4"
+      "url": "https://archive.org/download/math-and-physics/physics.mp4"
+    }, {
+      "type": "video",
+      "url": "https://archive.org/download/math-and-physics/math.mp4"
+    }, {
+      "type": "image",
+      "url": "https://archive.org/download/hctilg_white_girl/art.jpg",
+      "original_url": "https://archive.org/download/hctilg_white_girl/original_art.jpg"
+    }, {
+      "type": "image",
+      "url": "https://archive.org/download/hctilg_colorful_girl/art.jpg",
+      "original_url": "https://archive.org/download/hctilg_colorful_girl/original_art.jpg"
     }, {
       "type": "audio",
-      "url": "https://files.hctilg.top/media/Evgeny%20Grinko%20-%20Valse.mp3"
-    }, {
-      "type": "video",
-      "url": "https://hctilg.github.io/files/video/Alis%20-%20Vatan%20LQ.mp4"
+      "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Experience%20%28Solo%20Piano%29.mp3"
     }, {
       "type": "audio",
-      "url": "https://hctilg.github.io/files/audio/VATAN.mp3"
+      "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Elements.mp3"
+    }, {
+      "type": "image",
+      "url": "https://archive.org/download/hctilg_profile/home.jpg"
+    }, {
+      "type": "video",
+      "url": "https://archive.org/download/hctilg_piano/piano.mp4"
+    }, {
+      "type": "audio",
+      "url": "https://archive.org/download/evgeny-grinko-valse/EvgenyGrinko-Valse.mp3"
+    }, {
+      "type": "video",
+      "url": "https://archive.org/download/alis_vatan/vatan.mp4"
+    }, {
+      "type": "audio",
+      "url": "https://archive.org/download/alis_vatan/vatan.mp3"
+    }, {
+      "type": "image",
+      "url": "https://archive.org/download/hctilg_nature/image.jpg"
+    }, {
+      "type": "audio",
+      "url": "https://archive.org/download/hctilg_nature/music.mp3"
     }
   ]);
 
@@ -61,7 +71,9 @@ export default function Media({ Component, pageProps }) {
         items.map(item => {
           if (item.type == "video") return (
             <SplideSlide key={Math.random()}>
-              <video controls sre={item.url}></video>
+              <video controls>
+                <source src={item.url} type="video/mp4" />
+              </video>
             </SplideSlide>
           )
 
