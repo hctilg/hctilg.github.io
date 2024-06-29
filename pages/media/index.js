@@ -34,10 +34,10 @@ export default function Media({ Component, pageProps }) {
       "url": "https://hctilg.github.io/files/image/home.jpg"
     }, {
       "type": "video",
-      "url": "https://hctilg.github.io/files/video/piano.mp4"
+      "url": "https://files.hctilg.top/media/piano.mp4"
     }, {
       "type": "audio",
-      "url": "https://hctilg.github.io/files/audio/Evgeny%20Grinko%20-%20Valse.mp3"
+      "url": "https://files.hctilg.top/media/Evgeny%20Grinko%20-%20Valse.mp3"
     }, {
       "type": "video",
       "url": "https://hctilg.github.io/files/video/Alis%20-%20Vatan%20LQ.mp4"
