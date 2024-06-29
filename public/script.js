@@ -85,7 +85,7 @@ const sidebar = (() => {
 document.addEventListener('DOMContentLoaded', ev => {
     
     // set the body to full height
-    document.body.style.height = `${innerHeight}px`;
+    document.body.style.setProperty("--height", `${innerHeight}px`);
 
     sidebar();
     theme();

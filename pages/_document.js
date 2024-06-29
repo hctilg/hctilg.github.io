@@ -12,7 +12,7 @@ export default function Document() {
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         <script src="/script.js" />
       </Head>
-      <body>
+      <body style={{"--height": "100vh"}}>
         <Main />
         <NextScript />
         <script>
