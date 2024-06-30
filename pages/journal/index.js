@@ -10,7 +10,7 @@ export default function Posts({ Component, pageProps }) {
       <title>Glitch: Journal</title>
     </Head>
     <div>
-      <span>...</span>
+      <span>This page will be ready soon...</span>
     </div>
   </>
 }

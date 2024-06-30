@@ -11,7 +11,7 @@ export default function About({ Component, pageProps }) {
       <title>Glitch: About</title>
     </Head>
     <div>
-      <span>...</span>
+      <span>This page will be ready soon...</span>
     </div>
     <style jsx>{`
 h2 {
