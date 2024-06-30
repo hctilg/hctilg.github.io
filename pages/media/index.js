@@ -67,6 +67,10 @@ export default function Media({ Component, pageProps }) {
       "type": "audio",
       "url": "https://archive.org/download/hctilg_nature/music.mp3"
     }
+    // , {
+    //   "type": "image",
+    //   "url": "https://ia903200.us.archive.org/23/items/lovely_snowy/snowy.jpg"
+    // }
   ]);
 
   return <>
