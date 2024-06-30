@@ -23,10 +23,6 @@ export default function Media({ Component, pageProps }) {
       "description": "Math"
     }, {
       "type": "image",
-      "url": "https://archive.org/download/thucydides-quote/thucydides-quote.png",
-      "text": "The Nation that makes a great distinction between its scholars and its warriors will have its thinking done by cowards and its fighting done by fools."
-    }, {
-      "type": "image",
       "url": "https://archive.org/download/hctilg_white_girl/art.jpg",
       "original_url": "https://archive.org/download/hctilg_white_girl/original_art.jpg"
     }, {
@@ -67,10 +63,6 @@ export default function Media({ Component, pageProps }) {
       "type": "audio",
       "url": "https://archive.org/download/hctilg_nature/music.mp3"
     }
-    // , {
-    //   "type": "image",
-    //   "url": "https://ia903200.us.archive.org/23/items/lovely_snowy/snowy.jpg"
-    // }
   ]);
 
   return <>
