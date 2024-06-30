@@ -20,6 +20,9 @@ export default function Media({ Component, pageProps }) {
       "type": "video",
       "url": "https://archive.org/download/math-and-physics/math.mp4"
     }, {
+      "type": "video",
+      "url": "https://ia802905.us.archive.org/31/items/geometry_202406/geometry.mp4"
+    }, {
       "type": "image",
       "url": "https://archive.org/download/hctilg_white_girl/art.jpg",
       "original_url": "https://archive.org/download/hctilg_white_girl/original_art.jpg"
