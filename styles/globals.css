@@ -450,6 +450,7 @@ a {
   width: 100%;
   max-width: 1250px;
   max-height: calc(100% - 100px);
+  background: black;
   border-radius: 7px;
 }
 
