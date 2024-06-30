@@ -10,18 +10,21 @@ export default function Media({ Component, pageProps }) {
 
   const items = ([
     {
+      "type": "video",
+      "url": "https://archive.org/download/math-and-physics/physics.mp4",
+      "description": "Physics"
+    }, {
+      "type": "video",
+      "url": "https://ia802905.us.archive.org/31/items/geometry_202406/geometry.mp4",
+      "description": "Geometry"
+    }, {
+      "type": "video",
+      "url": "https://archive.org/download/math-and-physics/math.mp4",
+      "description": "Math"
+    }, {
       "type": "image",
       "url": "https://archive.org/download/thucydides-quote/thucydides-quote.png",
       "text": "The Nation that makes a great distinction between its scholars and its warriors will have its thinking done by cowards and its fighting done by fools."
-    }, {
-      "type": "video",
-      "url": "https://archive.org/download/math-and-physics/physics.mp4"
-    }, {
-      "type": "video",
-      "url": "https://archive.org/download/math-and-physics/math.mp4"
-    }, {
-      "type": "video",
-      "url": "https://ia802905.us.archive.org/31/items/geometry_202406/geometry.mp4"
     }, {
       "type": "image",
       "url": "https://archive.org/download/hctilg_white_girl/art.jpg",
@@ -32,10 +35,12 @@ export default function Media({ Component, pageProps }) {
       "original_url": "https://archive.org/download/hctilg_colorful_girl/original_art.jpg"
     }, {
       "type": "audio",
-      "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Experience%20%28Solo%20Piano%29.mp3"
+      "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Experience%20%28Solo%20Piano%29.mp3",
+      "description": "Ludovico Einaudi - Experience"
     }, {
       "type": "audio",
-      "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Elements.mp3"
+      "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Elements.mp3",
+      "description": "Ludovico Einaudi - Elements"
     }, {
       "type": "image",
       "url": "https://archive.org/download/hctilg_profile/home.jpg"
@@ -44,16 +49,20 @@ export default function Media({ Component, pageProps }) {
       "url": "https://archive.org/download/hctilg_piano/piano.mp4"
     }, {
       "type": "audio",
-      "url": "https://archive.org/download/evgeny-grinko-valse/EvgenyGrinko-Valse.mp3"
+      "url": "https://archive.org/download/evgeny-grinko-valse/EvgenyGrinko-Valse.mp3",
+      "description": "Evgeny Grinko - Valse"
     }, {
       "type": "video",
-      "url": "https://archive.org/download/alis_vatan/vatan.mp4"
+      "url": "https://archive.org/download/alis_vatan/vatan.mp4",
+      "description": "Alis - Fatherland  |  03:02"
     }, {
       "type": "audio",
-      "url": "https://archive.org/download/alis_vatan/vatan.mp3"
+      "url": "https://archive.org/download/alis_vatan/vatan.mp3",
+      "description": "Alis - Fatherland  |  03:02"
     }, {
       "type": "image",
-      "url": "https://archive.org/download/hctilg_nature/image.jpg"
+      "url": "https://archive.org/download/hctilg_nature/image.jpg",
+      "description": "Nature"
     }, {
       "type": "audio",
       "url": "https://archive.org/download/hctilg_nature/music.mp3"
@@ -72,23 +81,29 @@ export default function Media({ Component, pageProps }) {
     } } aria-label="My Favorite Medias">
       {
         items.map(item => {
+
+          var description = (item.description) ? <p className='description'>{item.description}</p> : '';
+
           if (item.type == "video") return (
             <SplideSlide key={Math.random()}>
               <video controls>
                 <source src={item.url} type="video/mp4" />
               </video>
+              {description}
             </SplideSlide>
           )
 
           if (item.type == "audio") return (
             <SplideSlide key={Math.random()}>
               <audio controls src={item.url}></audio>
+              {description}
             </SplideSlide>
           )
 
           if (item.type == "image") return (
             <SplideSlide key={Math.random()}>
               <img src={item.url} loading="lazy" />
+              {description}
             </SplideSlide>
           )
         })

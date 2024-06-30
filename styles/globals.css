@@ -446,8 +446,26 @@ a {
   align-items: center;
 }
 
-#slider video, #slider audio, #slider img {
+#slider video {
+  width: 100%;
+  max-width: 1250px;
   max-height: calc(100% - 100px);
+  border-radius: 7px;
+}
+
+#slider audio {
+  max-width: 640px;
+  width: 90%;
   border-radius: 4px;
+}
+
+#slider img {
   max-width: 100%;
+  max-height: calc(100% - 200px);
+  border-radius: 4px;
+}
+
+.description {
+  opacity: 0.98;
+  margin-top: 1em;
 }
