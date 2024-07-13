@@ -80,14 +80,14 @@ export default function App({ Component, pageProps }) {
         </li>
       </ul>
       <footer id='sidebar-bottom'>
-        <buttom id="mode-toggle" className="btn" aria-label="Switch Mode">
+        <buttom id="mode-toggle" className="btn" aria-label="Switch Mode" title="Switch Theme">
           <i className="fas fa-adjust"></i>
         </buttom>
-        <a className="btn" href='https://github.com/hctilg' target='__blank' aria-label="github">
+        <a className="btn" href='https://github.com/hctilg' target='__blank' aria-label="github" title="GitHub">
           <i className="fab fa-github"></i>
         </a>
-        <a className="btn" href='https://violet_void.t.me' aria-label="telegram">
-          <i className="fab fa-telegram"></i>
+        <a className="btn" href='mailto:hctilg@duck.com' aria-label="email" title="Email">
+          <i className="fab fa-envelope"></i>
         </a>
       </footer>
     </aside>
