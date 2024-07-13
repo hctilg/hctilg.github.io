@@ -87,7 +87,7 @@ export default function App({ Component, pageProps }) {
           <i className="fab fa-github"></i>
         </a>
         <a className="btn" href='mailto:hctilg@duck.com' aria-label="email" title="Email">
-          <i className="fa fa-envelope"></i>
+          <i className="fal fa-envelope"></i>
         </a>
       </footer>
     </aside>
