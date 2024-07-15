@@ -18,8 +18,8 @@ export default function About({ Component, pageProps }) {
         <p>This website is just for passing time and archiving some of my knowledge and stories.</p>
         <p>My field of work is not limited, but I'm more interested in AI, web and software development in programming.</p>
         <p>I love traveling alone, uninterrupted reading of books, swimming, and dancing.</p>
-        <p>I like Jasmine and Viola(violet) flowers.</p>
         <p>For me, Quality is more important than quantity...</p>
+        <p>I like Jasmine and Viola(violet) flowers.</p>
         <p>I like piano and violin ...</p>
       </div>
     </div>
