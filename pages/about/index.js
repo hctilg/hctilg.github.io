@@ -14,12 +14,12 @@ export default function About({ Component, pageProps }) {
       <div>
         <h2>Hi, I'm <b>Mahi</b></h2>
         <p>A programmer, writer, etc ...</p>
-        <p>I enjoy nature, science, and music :3</p>
+        <p>I enjoy nature, science, music and art :3</p>
         <p>This website is just for passing time and archiving some of my knowledge and stories.</p>
         <p>My field of work is not limited, but I'm more interested in AI, web and software development in programming.</p>
         <p>I love traveling alone, uninterrupted reading of books, swimming, and dancing.</p>
         <p>I like Jasmine and Viola(violet) flowers.</p>
-        <p>I don't care about anything other than my goals, if you want to be noticed, put yourself on the path of my goals :)</p>
+        <p>For me, Quality is more important than quantity...</p>
         <p>I like piano and violin ...</p>
       </div>
     </div>
