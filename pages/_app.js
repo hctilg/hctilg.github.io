@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }) {
         <h2 className='name'>
           <span>Mahi</span>
           <span> ∞ </span>
-          <span>Rira</span>
+          <span>Reera</span>
         </h2>
       </header>
       <ul id='sidebar-menu'>
