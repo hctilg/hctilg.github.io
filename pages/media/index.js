@@ -22,14 +22,6 @@ export default function Media({ Component, pageProps }) {
       "url": "https://archive.org/download/math-and-physics/math.mp4",
       "description": "Math"
     }, {
-      "type": "image",
-      "url": "https://archive.org/download/hctilg_white_girl/art.jpg",
-      "original_url": "https://archive.org/download/hctilg_white_girl/original_art.jpg"
-    }, {
-      "type": "image",
-      "url": "https://archive.org/download/hctilg_colorful_girl/art.jpg",
-      "original_url": "https://archive.org/download/hctilg_colorful_girl/original_art.jpg"
-    }, {
       "type": "audio",
       "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Experience%20%28Solo%20Piano%29.mp3",
       "description": "Ludovico Einaudi - Experience"
@@ -48,20 +40,28 @@ export default function Media({ Component, pageProps }) {
       "url": "https://archive.org/download/evgeny-grinko-valse/EvgenyGrinko-Valse.mp3",
       "description": "Evgeny Grinko - Valse"
     }, {
-      "type": "video",
-      "url": "https://archive.org/download/alis_vatan/vatan.mp4",
-      "description": "Alis - Fatherland  |  03:02"
-    }, {
-      "type": "audio",
-      "url": "https://archive.org/download/alis_vatan/vatan.mp3",
-      "description": "Alis - Fatherland  |  03:02"
-    }, {
       "type": "image",
       "url": "https://archive.org/download/hctilg_nature/image.jpg",
       "description": "Nature"
     }, {
       "type": "audio",
       "url": "https://archive.org/download/hctilg_nature/music.mp3"
+    }, {
+      "type": "video",
+      "url": "https://archive.org/download/iday-whale/iday-whale.mp4",
+      "description": "52-hertz whale"
+    }, {
+      "type": "audio",
+      "url": "https://archive.org/download/iday-whale/iday-whale.mp3",
+      "description": "Iday - Whale"
+    }, {
+      "type": "video",
+      "url": "https://archive.org/download/alis_vatan/vatan.mp4",
+      "description": "Alis - Fatherland"
+    }, {
+      "type": "audio",
+      "url": "https://archive.org/download/alis_vatan/vatan.mp3",
+      "description": "Alis - Fatherland"
     }
   ]);
 
