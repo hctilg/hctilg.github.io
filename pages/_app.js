@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }) {
   return <>
     <aside id='sidebar' className='readonly'>
       <header id='sidebar-top' translate='no'>
-        <h1 className='title' title="Don't Touch Me">
+        <h1 className='title'>
           <div className="stack">
             <span>Glitch</span>
             <span>Glitch</span>

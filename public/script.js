@@ -34,8 +34,13 @@ const theme = (() => {
 const sidebar = (() => {
 
     const title_box = document.querySelector("#sidebar-top .title .stack");
-    title_box.onclick = ev => title_box.querySelectorAll('span').forEach(elm => {
-        elm.innerText = elm.innerText == "Glitch" ? "Hctilg" : "Glitch";
+    title_box.querySelectorAll('span').forEach(elm => {
+        let _ctr = 0;
+        elm.addEventListener('animationiteration', () => {
+            if (_ctr % 2 == 0) elm.innerText = elm.innerText == "Glitch" ? "Hctilg" : "Glitch";
+            if (_ctr >= 2) _ctr = 0;
+            _ctr++;
+        });
     });
 
     let initialTouchPosX = null;

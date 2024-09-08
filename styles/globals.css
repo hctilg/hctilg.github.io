@@ -42,8 +42,8 @@
 }
 
 * {
-  transition: color 200ms ease,
-    background-color 200ms ease;
+  transition: color 20ms ease,
+    background-color 25ms ease;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -230,6 +230,10 @@ body:not(.active-search) #search-trigger i.fa-close {
   display: none;
 }
 
+[theme-mode="light"] #sidebar {
+  border-right: 1px solid #ececec;
+}
+
 #sidebar {
   background: var(--sidebar-bg);
   position: relative;
@@ -254,7 +258,6 @@ body:not(.active-search) #search-trigger i.fa-close {
 .stack {
   display: grid;
   grid-template-columns: 1fr;
-  cursor: pointer;
 }
 
 .stack span:nth-child(1) {
