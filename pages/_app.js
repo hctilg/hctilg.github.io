@@ -47,11 +47,7 @@ export default function App({ Component, pageProps }) {
             <span>Glitch</span>
           </div>
         </h1>
-        <h2 className='name'>
-          <span>Mahi</span>
-          <span> ∞ </span>
-          <span>Reera</span>
-        </h2>
+        <p className='biography'>a stupid with stupid ideas.</p>
       </header>
       <ul id='sidebar-menu'>
         <li>
