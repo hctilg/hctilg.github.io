@@ -336,6 +336,7 @@ body:not(.active-search) #search-trigger i.fa-close {
 }
 
 #sidebar-top .biography {
+  margin-top: 1.7em;
   color: rgb(110, 100, 110);
   font-size: 16px;
 }
