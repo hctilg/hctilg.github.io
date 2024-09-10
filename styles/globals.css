@@ -335,9 +335,9 @@ body:not(.active-search) #search-trigger i.fa-close {
   }
 }
 
-#sidebar-top .name {
+#sidebar-top .biography {
   color: rgb(110, 100, 110);
-  font-size: 22px;
+  font-size: 16px;
 }
 
 #sidebar-menu {
