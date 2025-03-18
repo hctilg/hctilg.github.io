@@ -82,7 +82,7 @@ export default function App({ Component, pageProps }) {
         <a className="btn" href='https://github.com/hctilg' target='__blank' aria-label="github" title="GitHub">
           <i className="fab fa-github"></i>
         </a>
-        <a className="btn" href='https://t.me/GitHub_2FA' aria-label="telegram" title="Telegram">
+        <a className="btn" href='https://t.me/violet_void' aria-label="telegram" title="Telegram">
           <i className="fab fa-telegram"></i>
         </a>
       </footer>
