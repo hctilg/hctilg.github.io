@@ -41,7 +41,8 @@ export default function Media({ Component, pageProps }) {
       "description": "Nature"
     }, {
       "type": "audio",
-      "url": "https://archive.org/download/hctilg_nature/music.mp3"
+      "url": "https://archive.org/download/hctilg_nature/music.mp3",
+      "description": "Nature"
     }, {
       "type": "video",
       "url": "https://archive.org/download/alis_vatan/vatan.mp4",
