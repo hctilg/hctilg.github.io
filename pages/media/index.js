@@ -11,16 +11,12 @@ export default function Media({ Component, pageProps }) {
   const items = ([
     {
       "type": "video",
-      "url": "https://archive.org/download/math-and-physics/physics.mp4",
-      "description": "Physics"
+      "url": "https://archive.org/download/iday-whale/iday-whale.mp4",
+      "description": "52-hertz whale"
     }, {
-      "type": "video",
-      "url": "https://ia802905.us.archive.org/31/items/geometry_202406/geometry.mp4",
-      "description": "Geometry"
-    }, {
-      "type": "video",
-      "url": "https://archive.org/download/math-and-physics/math.mp4",
-      "description": "Math"
+      "type": "audio",
+      "url": "https://archive.org/download/iday-whale/iday-whale.mp3",
+      "description": "Iday - Whale"
     }, {
       "type": "audio",
       "url": "https://archive.org/download/ludovico-einaudi-musics/Ludovico%20Einaudi%20-%20Experience%20%28Solo%20Piano%29.mp3",
@@ -46,14 +42,6 @@ export default function Media({ Component, pageProps }) {
     }, {
       "type": "audio",
       "url": "https://archive.org/download/hctilg_nature/music.mp3"
-    }, {
-      "type": "video",
-      "url": "https://archive.org/download/iday-whale/iday-whale.mp4",
-      "description": "52-hertz whale"
-    }, {
-      "type": "audio",
-      "url": "https://archive.org/download/iday-whale/iday-whale.mp3",
-      "description": "Iday - Whale"
     }, {
       "type": "video",
       "url": "https://archive.org/download/alis_vatan/vatan.mp4",
